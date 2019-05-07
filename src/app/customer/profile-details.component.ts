@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class ProfileDetailsComponent
 {
-    rating=3.5;
+    rating=6;
     starWidth= this.rating * 75/5;
     starColor="red";
     

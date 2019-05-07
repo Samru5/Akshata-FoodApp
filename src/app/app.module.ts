@@ -13,14 +13,15 @@ import { CustomerModule } from './customer/customer.module';
   declarations: [
     AppComponent,
     WelcomeComponent,
+
     // DishComponent
     
     
   ],
   imports: [
     BrowserModule,
-    // OrderModule,
     CustomerModule,
+
     RouterModule.forRoot(appRoutes)
     
   ],
